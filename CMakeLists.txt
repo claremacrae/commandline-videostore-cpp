@@ -3,9 +3,9 @@ project(commandline_videostore_cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/CMake/")
-include(UseCompilerCache)
-useCompilerCache()
+#set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/CMake/")
+#include(UseCompilerCache)
+#useCompilerCache()
 
 # This is needed so that the executable is in the same directory
 # as the movies.csv file.
