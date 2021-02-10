@@ -9,3 +9,4 @@ cmake-build-debug/
 /*.ilk
 /*.pdb
 /coverage-*.json
+*.received.*
