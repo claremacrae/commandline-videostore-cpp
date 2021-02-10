@@ -17,4 +17,5 @@
   * https://github.com/approvals/ApprovalTests.cpp/
 * fmt library
   * https://github.com/fmtlib/fmt
-
+* C/C++ Coverage CLion Plugin
+  * https://github.com/zero9178/GCoverage4CLion/blob/master/README.md
