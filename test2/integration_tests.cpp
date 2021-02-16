@@ -12,3 +12,13 @@ TEST_CASE("test empty input") {
   run(in, out);
   Approvals::verify(out.str());
 }
+
+TEST_CASE("test real input") {
+  std::stringstream in;
+  in << "Clare Macrae\n";
+  in << "1 2\n";
+  in << "1 3\n";
+  std::stringstream out;
+  run(in, out);
+  Approvals::verify(out.str());
+}
