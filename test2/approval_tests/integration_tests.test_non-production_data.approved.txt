@@ -1,0 +1,16 @@
+(Category, days)
+
+
+(REGULAR, 1) => 	(Amount:    2.00	Points: 1
+(REGULAR, 2) => 	(Amount:    2.00	Points: 1
+(REGULAR, 3) => 	(Amount:    3.50	Points: 1
+(REGULAR, 4) => 	(Amount:    5.00	Points: 1
+(CHILDRENS, 1) => 	(Amount:    1.50	Points: 1
+(CHILDRENS, 2) => 	(Amount:    1.50	Points: 1
+(CHILDRENS, 3) => 	(Amount:    1.50	Points: 1
+(CHILDRENS, 4) => 	(Amount:    3.00	Points: 1
+(NEW_RELEASE, 1) => 	(Amount:    3.00	Points: 1
+(NEW_RELEASE, 2) => 	(Amount:    6.00	Points: 2
+(NEW_RELEASE, 3) => 	(Amount:    9.00	Points: 2
+(NEW_RELEASE, 4) => 	(Amount:   12.00	Points: 2
+

@@ -28,12 +28,12 @@
 
 #### Use Approval Tests to test run()
 
-* [ ] Add [ApprovalTests](https://github.com/approvals/ApprovalTests.cpp/) to test2 program
+* [x] Add [ApprovalTests](https://github.com/approvals/ApprovalTests.cpp/) to test2 program
   * Hint: depend on ApprovalTests::ApprovalTests
-* [ ] Add first approval test - **empty input**
+* [x] Add first approval test - **empty input**
   * [ ] Hint: copy
     in [code from the docs](https://approvaltestscpp.readthedocs.io/en/latest/generated_docs/UsingCatch.html#code-to-copy-for-your-first-catch2-approvals-test)
-* [ ] Compare your new test with the original test in test/
+* [x] Compare your new test with the original test in test/
 
 #### Improve test's coverage of run.cpp
 
@@ -47,8 +47,8 @@
 
 #### Make tests independent of production data
 
-* [ ] Copy sample in from Combinations
-* [ ] Extract `calculateAmountAndPoints()`
-* [ ] Get columns to align - using [fmt](https://github.com/fmtlib/fmt) library
-    * Hint: `#include <fmt/core.h>`
-    * Hint:  `return fmt::format("\t(Amount: {:7.2f}\tPoints: {}", thisAmount, frequentRenterPoints);`
+* [x] Copy sample in from Combinations
+* [x] Extract `calculateAmountAndPoints()`
+* [x] Get columns to align - using [fmt](https://github.com/fmtlib/fmt) library
+  * Hint: `#include <fmt/core.h>`
+  * Hint:  `return fmt::format("\t(Amount: {:7.2f}\tPoints: {}", thisAmount, frequentRenterPoints);`
