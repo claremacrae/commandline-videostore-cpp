@@ -47,24 +47,8 @@ void run(std::istream& in, std::ostream& out) {
     int daysRented = std::stoi(rental[1]);
     //determine amounts for rental
     std::string category = movie[2];
-    if (category == "REGULAR") {
-      thisAmount += 2;
-      if (daysRented > 2)
-        thisAmount += (daysRented - 2) * 1.5;
-    } else if (category == "NEW_RELEASE") {
-      thisAmount += daysRented * 3;
-    } else if (category == "CHILDRENS") {
-      thisAmount += 1.5;
-      if (daysRented > 3)
-        thisAmount += (daysRented - 3) * 1.5;
-    }
+    calculateAmountAndPoints(category, daysRented, thisAmount, frequentRenterPoints);
 
-    // add frequent renter points
-    frequentRenterPoints++;
-    // add bonus for a two day new release rental
-    if (category == "NEW_RELEASE" && daysRented > 1) {
-      frequentRenterPoints++;
-    }
     // show figures for this rental
     result << "\t" << movie[1] + "\t" << thisAmount << "\n";
     totalAmount += thisAmount;
@@ -75,4 +59,27 @@ void run(std::istream& in, std::ostream& out) {
   result << "You earned " << frequentRenterPoints << " frequent renter points\n";
 
   out << result.str();
+}
+void calculateAmountAndPoints(const std::string& category,
+                              int daysRented,
+                              double& thisAmount,
+                              int& frequentRenterPoints) {
+  if (category == "REGULAR") {
+    thisAmount += 2;
+    if (daysRented > 2)
+      thisAmount += (daysRented - 2) * 1.5;
+  } else if (category == "NEW_RELEASE") {
+    thisAmount += daysRented * 3;
+  } else if (category == "CHILDRENS") {
+    thisAmount += 1.5;
+    if (daysRented > 3)
+      thisAmount += (daysRented - 3) * 1.5;
+  }
+
+  // add frequent renter points
+  frequentRenterPoints++;
+  // add bonus for a two day new release rental
+  if (category == "NEW_RELEASE" && daysRented > 1) {
+    frequentRenterPoints++;
+  }
 }
