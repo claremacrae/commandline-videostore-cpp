@@ -7,6 +7,7 @@ add_subdirectory(dependencies)
 
 enable_testing()
 add_subdirectory(test)
+add_subdirectory(test2)
 
 set(PROJ_SOURCES run.h run.cpp movie_utilities.cpp movie_utilities.h)
 add_library(StoreLib ${PROJ_SOURCES})
