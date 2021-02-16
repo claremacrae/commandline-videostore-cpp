@@ -28,10 +28,10 @@
 
 #### Use Approval Tests to test run()
 
-* [ ] Add [ApprovalTests](https://github.com/approvals/ApprovalTests.cpp/) to test2 program
+* [x] Add [ApprovalTests](https://github.com/approvals/ApprovalTests.cpp/) to test2 program
   * Hint: depend on ApprovalTests::ApprovalTests
-* [ ] Add first approval test - **empty input**
-  * [ ] Hint: copy
+* [x] Add first approval test - **empty input**
+  * [x] Hint: copy
     in [code from the docs](https://approvaltestscpp.readthedocs.io/en/latest/generated_docs/UsingCatch.html#code-to-copy-for-your-first-catch2-approvals-test)
 * [ ] Compare your new test with the original test in test/
 
