@@ -46,13 +46,14 @@ void run(std::istream& in, std::ostream& out) {
     double thisAmount = 0;
     int daysRented = std::stoi(rental[1]);
     //determine amounts for rental
-    if (movie[2] == "REGULAR") {
+    std::string category = movie[2];
+    if (category == "REGULAR") {
       thisAmount += 2;
       if (daysRented > 2)
         thisAmount += (daysRented - 2) * 1.5;
-    } else if (movie[2] == "NEW_RELEASE") {
+    } else if (category == "NEW_RELEASE") {
       thisAmount += daysRented * 3;
-    } else if (movie[2] == "CHILDRENS") {
+    } else if (category == "CHILDRENS") {
       thisAmount += 1.5;
       if (daysRented > 3)
         thisAmount += (daysRented - 3) * 1.5;
@@ -61,7 +62,7 @@ void run(std::istream& in, std::ostream& out) {
     // add frequent renter points
     frequentRenterPoints++;
     // add bonus for a two day new release rental
-    if (movie[2] == "NEW_RELEASE" && daysRented > 1) {
+    if (category == "NEW_RELEASE" && daysRented > 1) {
       frequentRenterPoints++;
     }
     // show figures for this rental
