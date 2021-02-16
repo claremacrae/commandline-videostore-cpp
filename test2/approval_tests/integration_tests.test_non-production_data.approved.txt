@@ -1,16 +1,32 @@
 (Category, days)
 
 
+(REGULAR, -2) => 	(Amount:    2.00	Points: 1
+(REGULAR, -1) => 	(Amount:    2.00	Points: 1
+(REGULAR, 0) => 	(Amount:    2.00	Points: 1
 (REGULAR, 1) => 	(Amount:    2.00	Points: 1
 (REGULAR, 2) => 	(Amount:    2.00	Points: 1
 (REGULAR, 3) => 	(Amount:    3.50	Points: 1
 (REGULAR, 4) => 	(Amount:    5.00	Points: 1
+(CHILDRENS, -2) => 	(Amount:    1.50	Points: 1
+(CHILDRENS, -1) => 	(Amount:    1.50	Points: 1
+(CHILDRENS, 0) => 	(Amount:    1.50	Points: 1
 (CHILDRENS, 1) => 	(Amount:    1.50	Points: 1
 (CHILDRENS, 2) => 	(Amount:    1.50	Points: 1
 (CHILDRENS, 3) => 	(Amount:    1.50	Points: 1
 (CHILDRENS, 4) => 	(Amount:    3.00	Points: 1
+(NEW_RELEASE, -2) => 	(Amount:   -6.00	Points: 1
+(NEW_RELEASE, -1) => 	(Amount:   -3.00	Points: 1
+(NEW_RELEASE, 0) => 	(Amount:    0.00	Points: 1
 (NEW_RELEASE, 1) => 	(Amount:    3.00	Points: 1
 (NEW_RELEASE, 2) => 	(Amount:    6.00	Points: 2
 (NEW_RELEASE, 3) => 	(Amount:    9.00	Points: 2
 (NEW_RELEASE, 4) => 	(Amount:   12.00	Points: 2
+(JUNK, -2) => 	(Amount:    0.00	Points: 1
+(JUNK, -1) => 	(Amount:    0.00	Points: 1
+(JUNK, 0) => 	(Amount:    0.00	Points: 1
+(JUNK, 1) => 	(Amount:    0.00	Points: 1
+(JUNK, 2) => 	(Amount:    0.00	Points: 1
+(JUNK, 3) => 	(Amount:    0.00	Points: 1
+(JUNK, 4) => 	(Amount:    0.00	Points: 1
 

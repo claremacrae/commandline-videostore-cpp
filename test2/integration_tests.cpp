@@ -24,8 +24,8 @@ TEST_CASE("test real input") {
 }
 
 TEST_CASE("test non-production data") {
-  std::vector<std::string> inputs1{"REGULAR", "CHILDRENS", "NEW_RELEASE"};
-  std::vector<int> inputs2{1, 2, 3, 4};
+  std::vector<std::string> inputs1{"REGULAR", "CHILDRENS", "NEW_RELEASE", "JUNK"};
+  std::vector<int> inputs2{-2, -1, 0, 1, 2, 3, 4};
   CombinationApprovals::verifyAllCombinations(
       "(Category, days)",
       [&](auto category, auto days) {
