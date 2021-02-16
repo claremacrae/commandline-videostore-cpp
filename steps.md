@@ -2,8 +2,8 @@
 
 #### Review initial code
 
-* [ ] main.cpp and run.cpp
-* [ ] run `commandline_videostore_cpp` program
+* [x] main.cpp and run.cpp
+* [x] run `commandline_videostore_cpp` program
 
 #### Recommendations
 
@@ -12,19 +12,19 @@
 
 #### Set up Catch2-based test program
 
-* [ ] Review the CMake file in dependencies/ folder
-* [ ] Add empty [Catch2](https://github.com/catchorg/Catch2) test program, in test2/ directory
-  * [ ] main.cpp
-  * [ ] integration_tests.cpp
-  * [ ] CMakeLists.txt
+* [x] Review the CMake file in dependencies/ folder
+* [x] Add empty [Catch2](https://github.com/catchorg/Catch2) test program, in test2/ directory
+  * [x] main.cpp
+  * [x] integration_tests.cpp
+  * [x] CMakeLists.txt
     * Hint: depend on Catch2::Catch2
     * Hint: remember to add the new directory to top-level CMakeLists.txt file!
 
 #### Add Catch2 test for run()
 
-* [ ] Add test for run() with empty input
+* [x] Add test for run() with empty input
   * Hint: Use a raw string literal: `R"()"`
-* [ ] Try to make it pass, by pasting in actual output
+* [x] Try to make it pass, by pasting in actual output
 
 #### Use Approval Tests to test run()
 
